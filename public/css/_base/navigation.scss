@@ -1,0 +1,42 @@
+.navbar-ham{
+    width: 30px;
+}
+//NAV
+.navigation{
+    .offcanvas-md{
+        @media (max-width:767px) {
+            width: 100%;
+        }
+    }
+    .sidebar{
+        position: fixed;
+        z-index: 999;
+        top: -1px;
+        *{
+            color: white;
+        }
+        .nav-item{
+            padding: 2%;
+            &.active{
+                background-color: blueviolet;
+            }
+        }
+    }
+    
+    .admin-nav-lateral{
+        min-height: calc(100vh);
+        @media (max-width:767px) {
+            min-height: calc(100vh - 64px);
+        }
+    }
+    //icon
+    .sidebar-icon{
+        width: 25px;
+    }
+    &_close{
+        background: transparent;
+        border: 1px solid gray;
+        border-radius: 7px;
+        padding: 1% 3%;
+    }
+}

@@ -1,0 +1,19 @@
+//HOME
+.home{
+    .card{
+        width: 200px;
+        max-width: 100%;
+        img{
+            width: 60px;
+            max-width: 80%;
+        }
+        a{
+            @media screen and (max-width: 770px) {
+                font-size: 0.8em;
+            }
+        }
+    }
+    .card-img-top{
+        padding: 40px;
+    }
+}
